@@ -1,0 +1,13 @@
+Program  - Sales Order Printout
+
+Description: This ABAP program is designed for printing sales orders using Smartforms. It retrieves and formats sales order data for output, providing a comprehensive printout of sales order details.
+
+Key Features:
+- Sales Order Data Retrieval: Uses BAPI functions to fetch detailed sales order information including headers, items, business data, partners, addresses, conditions, and flows.
+- Customer and Company Information: Retrieves and includes customer and company details such as names, addresses, and identification numbers.
+- Sales Document Items: Processes and formats sales document items, calculating totals and taxes.
+- Smartform Integration: Integrates with Smartforms to generate and display the formatted sales order printout.
+
+Usage:
+- Execute the program and provide the sales order number to generate the printout.
+- The program supports output to both screen and printer.
